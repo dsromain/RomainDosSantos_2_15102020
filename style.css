@@ -241,9 +241,7 @@ form input {
     margin-bottom: 10px;
 }
 
-#container-marseille a {
-    color: black;
-}
+
 
 .element-marseille {
     background-color: white;
@@ -546,21 +544,32 @@ form input {
 
     .main-subtitle {
         margin-left: 10px; 
-        padding-top: 10px;
+        padding-top: 5px;
     }
 
+    .fa-map-marker-alt {
+        padding-right: 12px;
+    }
     
     .research form {
         margin-left: 10px;
-        margin-bottom: -30px;
+        margin-bottom: -20px;
     }
 
     form input {
         width: 220px;
+        height: 50px;
     }
 
     form i {
         width: 18px;
+    }
+
+    .fa-search {
+        padding-left: 18px;
+        padding-top: 18px;
+        padding-right: 13px;
+        padding-bottom: 3px;
     }
 
     .first-button {
@@ -658,8 +667,7 @@ form input {
 
     .element-pop {
         width: auto;
-        margin: auto;
-        margin: 20px 20px;
+        margin: 10px 10px;
     }
 
     .picture-pop {
@@ -699,18 +707,21 @@ form input {
         height: auto;
     }
 
+    #container-marseille a {
+        width: 100%;
+    }
+
     .picture-marseille {
-        width: auto;
-        height: auto;
-        margin-top: 4px;
-        margin-left: 4px;
-        padding-right: 5px;
+        width: 100%;
+        height: 160px;
+        margin-top: 0px;
+        margin-left: 0px;
         object-fit: cover;
     }
 
     .element-marseille {
         width: auto;
-        margin: auto;
+        margin: 100%;
         height: auto;
         margin: 10px 10px;
         padding-bottom: 2px;
@@ -726,6 +737,7 @@ form input {
     /*ACTIVITES*/
 
     #title-activities {
+        margin-top: 50px;
         margin-left: 20px;
     }
 
@@ -857,6 +869,11 @@ form input {
         margin-left: 30px;
     }
 
+    .fa-map-marker-alt {
+        padding-right: 5px;
+        margin-top: 2px;
+    }
+
     .research {
         margin-left: -80px;
     }
@@ -897,7 +914,7 @@ form input {
     /*LES PLUS POPULAIRES*/
 
     .title-favoris {
-        font-size: 1.3em;
+        margin-bottom: 20px;
         text-align: center;
         font-weight: bold;
     }
@@ -919,7 +936,8 @@ form input {
 
     .element-pop {
         width: auto;
-        margin: 20px 50px;
+        margin-left: 195px;
+        margin-right: 165px;
     }
 
     .star-pop {
@@ -935,7 +953,7 @@ form input {
         font-size: 1.5em;
         font-weight: bold;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     #container-marseille {
@@ -954,22 +972,24 @@ form input {
         width: auto;
         height: auto;
         margin: auto;
-        margin-left: 0px;
     }
 
     .element-marseille {
-        padding-right: 5px;
-        padding-bottom: 10px;
         width: auto;
         height: auto; 
+        margin: 10px 30px;
     }
 
     .picture-marseille {
         width: auto;
-        margin: auto;
         height: auto;
         margin-top: 5px;  
-        margin-left: 5px; 
+        margin-left: 5px;
+        margin-right: 5px; 
+    }
+
+    .star-marseille {
+        padding-bottom: 5px;
     }
 
     .more {
@@ -983,7 +1003,6 @@ form input {
     /*ACTIVITES A MARSEILLE*/
 
     #title-activities {
-        font-size: 1.1em;
         text-align: center;
         margin-right: 0px;
         margin-left: 0px;    
@@ -1013,8 +1032,7 @@ form input {
         padding-bottom: 2px;
     }
 
-    
-    
+
     .picture_port,
     .picture_fort,
     .picture_frioul,
@@ -1033,12 +1051,26 @@ form input {
 
     .content-footer {
         padding-left: 0px;
+        margin-left: -70px;
     }
 
     .footer-about,
     .footer-accommodation,
     .footer-assistance {
         margin-right: 0px;
+        
     }
 }
 
+@media screen and (min-width: 1250px) and (max-width:1325px) {
+    .content-footer {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .footer-about,
+    .footer-accommodation,
+    .footer-assistance {
+        margin-right: 80px;
+    }
+}
